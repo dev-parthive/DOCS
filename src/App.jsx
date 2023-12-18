@@ -1,14 +1,17 @@
 
 import './App.css'
+import Background from "./componenets/Background"
+import Foreground from './componenets/Foreground/Foreground'
 
 function App() {
   
 
   return (
-    <>
+    <div className='relative w-full h-screen bg-zinc-800  '> 
+    <Background></Background>
 
-    <h1 className='text-red-900 underline '>parthive shill </h1>
-         </>
+    <Foreground></Foreground>
+    </div>
   )
 }
 
