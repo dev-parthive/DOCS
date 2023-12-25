@@ -3,7 +3,7 @@ const Background = () => {
         <>
 
         <div className="fixed z-[2] w-full h-screen">
-        <div className=' absoulte top-[5%] w-full py-10 flex justify-center text-zinc-600 font-semibold text-lg'>
+        <div className=' absoulte  w-full py-6 flex justify-center text-zinc-600 font-semibold text-lg'>
         Documents
           </div>
       
